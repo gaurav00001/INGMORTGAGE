@@ -1,0 +1,40 @@
+[ninjaroot@ip-172-31-21-197 ~]$ history
+    1  sudo su -
+    2  exit
+    3  sudo su -
+    4  sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqu                                                                                        be-7.6.zip
+    5  sudo unzip sonarqube-7.6.zip
+    6  chmod 777 -R sonarqube-7.6
+    7  sudo chmod 777 -R sonarqube-7.6
+    8  sudo chown -R ninjaroot:ninjaroot /opt/sonarqube-7.6
+    9  ls
+   10  sudo chown 777 -R sonarqube-7.6
+   11  cd sonarqube-7.6
+   12  ls
+   13  cd bin
+   14  cd linux-x86-64/
+   15  ls
+   16  ./sonar.sh start
+   17  ./sonar.sh status
+   18  cd /opt
+   19  sudo wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli                                                                                        /sonar-scanner-cli-3.3.0.1492-linux.zip
+   20  unzip sonar-scanner-cli-3.3.0.1492-linux.zip
+   21  sudo unzip sonar-scanner-cli-3.3.0.1492-linux.zip
+   22  cd sonar-scanner-cli-3.3.0.1492-linux
+   23  ls
+   24  cd sonar-scanner-3.3.0.1492-linux/
+   25  vi /etc/environment
+   26  sudo vi /etc/environment
+   27  source /etc/environment
+   28  cd ..
+   29  yum install git -y
+   30  sudo su -
+   31  ls
+   32  sudo su
+   33  export PATH=/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr                                                                                        /sbin:/usr/bin:/root/bin
+   34  sudo su
+   35  sudo su -
+   36  PATH=$PATH:/usr/bin export PATH
+   37  sudo su -
+   38  ll
+   39  history
